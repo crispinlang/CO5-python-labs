@@ -24,11 +24,9 @@ def run_search_experiment(ix, query_str, mode="MULTIFIELD"):
             qp = QueryParser("body", schema=ix.schema, group=OrGroup)
 
         elif mode == "MULTIFIELD":
-            # The "Standard" Google-like search: Title + Content, AND logic
             qp = MultifieldParser(["title", "content"], schema=ix.schema, group=OrGroup)
             
         elif mode == "FUZZY":
-            # Typo Tolerant: Search ALL fields but allow errors
             qp = MultifieldParser(["title", "body"], schema=ix.schema)
             qp.add_plugin(FuzzyTermPlugin())
 

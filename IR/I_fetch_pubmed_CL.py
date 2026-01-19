@@ -13,7 +13,7 @@ from multiprocessing import Pool
 from collections import defaultdict
 
 
-num_workers = 10 # cpu cores
+num_workers = 10
 base_url = 'https://ftp.ncbi.nlm.nih.gov/pubmed/baseline/'
 
 medline_folder = 'pmid2contents'
@@ -120,7 +120,6 @@ def multi_process_medline():
     for gz_file in os.listdir(medline_folder): # remove processed files
         if gz_file.endswith('.gz'):
             os.remove(os.path.join(medline_folder, gz_file))
-
 
 
 if __name__ == "__main__":

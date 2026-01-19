@@ -23,10 +23,8 @@ def get_index():
     ix = create_in(index_dir, schema)
     writer = ix.writer()
 
-    # Get list of files first so tqdm knows the total count
     files_to_index = [f for f in os.listdir(source_data_dir) if f.endswith('.pkl')]
 
-    # Wrap the list in tqdm(...) to create the progress bar
     for filename in tqdm(files_to_index):
         filepath = os.path.join(source_data_dir, filename)
         with open(filepath, "rb") as f:
