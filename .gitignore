@@ -1,7 +1,3 @@
-
-
-
-
 ### Folders to ignore:
 
 day1/pmid2contents/
@@ -12,7 +8,19 @@ day1/pubmed_index
 .DS_Store
 **/.DS_Store
 
+# Day 1
+
+# Day 2
 day2/squad/squad_multiple_contexts.json
 
+# Day 3
 day3/Continued_training/shakespeare.txt
+
+# Day 4
+day4/Exercise2_Diffusers/Task_1A_SD/requirements.txt
+day4/Exercise2_Diffusers/Task_1A_SD/img
+day4/Exercise2_Diffusers/Task_1A_SD/requirements.txt
+day4/Exercise2_Diffusers/Task_1B_CFG/requirements.txt
+
+day4/Task_3_Fine_Tune_LoRA/wandb
 
