@@ -1,18 +1,12 @@
-### Folders to ignore:
-
-day1/pmid2contents/
-day1/pubmed_index
-
 ### Files to ignore
-
 .DS_Store
 **/.DS_Store
 
 # Day 1
-day1/Exercise sheet 1.md
+day1/pmid2contents/
+day1/pubmed_index
 
 # Day 2
-day2/Exercise sheet 2.md
 day2/squad/texts/
 day2/squad/squad_multiple_contexts.json
 day2/chroma_db
@@ -25,9 +19,6 @@ day4/Exercise2_Diffusers/Task_1A_SD/requirements.txt
 day4/Exercise2_Diffusers/Task_1A_SD/img
 day4/Exercise2_Diffusers/Task_1A_SD/requirements.txt
 day4/Exercise2_Diffusers/Task_1B_CFG/requirements.txt
-
 day4/Task_3_Fine_Tune_LoRA/wandb
-
-models/
 
 
