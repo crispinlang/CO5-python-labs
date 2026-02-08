@@ -9,9 +9,13 @@ day1/pubmed_index
 **/.DS_Store
 
 # Day 1
+day1/Exercise sheet 1.md
 
 # Day 2
+day2/Exercise sheet 2.md
+day2/squad/texts/
 day2/squad/squad_multiple_contexts.json
+day2/chroma_db
 
 # Day 3
 day3/Continued_training/shakespeare.txt
@@ -23,4 +27,7 @@ day4/Exercise2_Diffusers/Task_1A_SD/requirements.txt
 day4/Exercise2_Diffusers/Task_1B_CFG/requirements.txt
 
 day4/Task_3_Fine_Tune_LoRA/wandb
+
+models/
+
 
